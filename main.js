@@ -97,8 +97,8 @@ function my_keydown(e) {
 
 
 function up(){
-    if(rover_y>=0){
-    rover_y=rover_y-10;
+    if(racingcar_y>=0){
+    racingcar_y=racingcar_y-10;
     uploadBackground();
     uploadRacingcar();
     
@@ -107,8 +107,8 @@ function up(){
     
     }
     function down(){
-        if(rover_y<=500){
-        rover_y=rover_y+10;
+        if(racingcar_y<=500){
+        racingcar_y=racingcar_y+10;
         uploadBackground();
         uploadRacingcar();
         
@@ -117,8 +117,8 @@ function up(){
         
         }
         function left(){
-            if(rover_x>=0){
-            rover_x=rover_x-10;
+            if(racingcar_x>=0){
+            racingcar_x=racingcar_x-10;
             uploadBackground();
             uploadRacingcar();
             
@@ -127,8 +127,8 @@ function up(){
             
             }
             function right(){
-                if(rover_x<=700){
-                rover_x=rover_x+10;
+                if(racingcar_x<=700){
+                racingcar_x=racingcar_x+10;
                 uploadBackground();
                 uploadRacingcar();
                 
@@ -136,9 +136,9 @@ function up(){
                 
                 
                 }
-                function up(){
-                    if(rover_y>=0){
-                    rover_y=rover_y-10;
+                function up2(){
+                    if(racingcar2_y>=0){
+                    racingcar2_y=racingcar2_y-10;
                     uploadBackground();
                     uploadRacingcar2();
                     
@@ -146,9 +146,9 @@ function up(){
                     
                     
                     }
-                    function down(){
-                        if(rover_y<=500){
-                        rover_y=rover_y+10;
+                    function down2(){
+                        if(racingcar2_y<=500){
+                        racingcar2_y=racingcar2_y+10;
                         uploadBackground();
                         uploadRacingcar2();
                         
@@ -156,9 +156,9 @@ function up(){
                         
                         
                         }
-                        function left(){
-                            if(rover_x>=0){
-                            rover_x=rover_x-10;
+                        function left2(){
+                            if(racingcar2_x>=0){
+                            racingcar2_x=racingcar2_x-10;
                             uploadBackground();
                             uploadRacingcar2();
                             
@@ -166,9 +166,9 @@ function up(){
                             
                             
                             }
-                            function right(){
-                                if(rover_x<=700){
-                                rover_x=rover_x+10;
+                            function right2(){
+                                if(racingcar2_x<=700){
+                                racingcar2_x=racingcar2_x+10;
                                 uploadBackground();
                                 uploadRacingcar2();
                                 
